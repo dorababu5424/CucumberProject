@@ -1,0 +1,316 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify setting password in Filpkart page",
+        "description": "",
+        "id": "setting-password;verify-setting-password-in-filpkart-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3141500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should open Filpkark Page",
+            "match": {
+              "location": "StepDefinition.user_should_open_Filpkark_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 154500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should click on change password",
+            "match": {
+              "location": "StepDefinition.user_should_click_on_change_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should should enter old password and new password",
+            "match": {
+              "location": "StepDefinition.user_should_should_enter_old_password_and_new_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should click change password",
+            "match": {
+              "location": "StepDefinition.user_should_click_change_password()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Setting password",
+    "description": "",
+    "id": "setting-password",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Filpkart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify Facebook Login With Vaild Credentials",
+        "description": "",
+        "id": "verify-facebook-login-credentials;verify-facebook-login-with-vaild-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 187400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should open Facebook on browser",
+            "match": {
+              "location": "StepDefinition.user_should_open_Facebook_on_browser1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\r\n\tat org.stepdefinition.StepDefinition.user_should_enter_vaild_username_and_password(StepDefinition.java:47)\r\n\tat ✽.User should enter vaild username and password(src/test/resources/Features/LoginPage.feature:6)\r\n",
+              "duration": 6996500,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User should enter vaild username and password",
+            "match": {
+              "location": "StepDefinition.user_should_enter_vaild_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25300,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user should click on Login button",
+            "match": {
+              "location": "StepDefinition.user_should_click_on_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Facebook Login credentials",
+    "description": "",
+    "id": "verify-facebook-login-credentials",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/LoginPage.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 10,
+        "name": "payment with debit card",
+        "description": "",
+        "id": "verifying-payment-gateway;payment-with-debit-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 279700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click debit card button",
+            "match": {
+              "location": "StepDefinition.user_should_click_debit_card_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 249900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter details",
+            "match": {
+              "location": "StepDefinition.user_should_enter_details()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Func1"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "payment with credit card",
+        "description": "",
+        "id": "verifying-payment-gateway;payment-with-credit-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 486000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should click on credit card",
+            "match": {
+              "location": "StepDefinition.user_should_click_on_credit_card()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 457200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should enter details",
+            "match": {
+              "location": "StepDefinition.user_should_enter_details()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Func1"
+          },
+          {
+            "name": "@retest"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "payment with debit card using visa",
+        "description": "",
+        "id": "verifying-payment-gateway;payment-with-debit-card-using-visa",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 171800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should click debit card button",
+            "match": {
+              "location": "StepDefinition.user_should_click_debit_card_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 694800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should enter details",
+            "match": {
+              "location": "StepDefinition.user_should_enter_details()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Func1"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "payment with debit card using master",
+        "description": "",
+        "id": "verifying-payment-gateway;payment-with-debit-card-using-master",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 287200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should click debit card button",
+            "match": {
+              "location": "StepDefinition.user_should_click_debit_card_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user should enter details",
+            "match": {
+              "location": "StepDefinition.user_should_enter_details()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Func1"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Payment Gateway",
+    "description": "",
+    "id": "verifying-payment-gateway",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Pagement.feature",
+    "tags": [
+      {
+        "name": "@Func1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
